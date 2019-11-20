@@ -1,5 +1,5 @@
-set palette rgbformula 2,-7,-7
-set cbrange [20:26]
+set palette rgbformula 21,22,23
+set cbrange [500:1200]
 set cblabel "Temperature"
 unset cbtics
 set view map
