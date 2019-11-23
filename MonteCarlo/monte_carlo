@@ -1,0 +1,14 @@
+#!/bin/bash -l
+#SBATCH -N 1 
+#SBATCH -n 28
+#SBATCH --mem 1Gb
+#SBATCH --time=0:10:00 
+#SBATCH -A g66-21
+
+#module load common/java/java
+
+/apps/java/graalvm-1.0.0-rc1/bin/javac -cp :pcj-5.0.8.jar PCJMonteCarlo.java
+
+srun -n 1 /apps/java/graalvm-1.0.0-rc1/bin/java -cp :pcj-5.0.8.jar PCJMonteCarlo
+
+#srun hostname > nodes.txt

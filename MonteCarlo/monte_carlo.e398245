@@ -1,0 +1,2 @@
+ModuleCmd_Load.c(244):ERROR:105: Unable to locate a modulefile for 'common/java/java'
+/var/spool/slurmd/job398245/slurm_script: line 10: java: command not found

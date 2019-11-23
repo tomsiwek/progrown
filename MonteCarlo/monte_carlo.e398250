@@ -1,0 +1,8 @@
+ModuleCmd_Load.c(244):ERROR:105: Unable to locate a modulefile for 'common/java/java'
+Exception in thread "main" java.lang.IllegalArgumentException: There is no entry for PCJ threads for current JVM
+	at org.pcj.internal.InternalPCJ.start(InternalPCJ.java:71)
+	at org.pcj.internal.InternalPCJ.start(InternalPCJ.java:65)
+	at org.pcj.PCJ.start(PCJ.java:43)
+	at PCJMonteCarlo.main(PCJMonteCarlo.java:24)
+srun: error: nid00008: task 0: Exited with exit code 1
+srun: Terminating job step 398250.0
